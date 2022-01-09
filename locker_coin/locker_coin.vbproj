@@ -73,11 +73,35 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data_Sewa.Designer.vb">
+      <DependentUpon>Data_Sewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Sewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_JenisLocker.Designer.vb">
+      <DependentUpon>Form_JenisLocker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_JenisLocker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Remove.Designer.vb">
+      <DependentUpon>Form_Remove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Remove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitor_Locker.Designer.vb">
+      <DependentUpon>Monitor_Locker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor_Locker.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,13 +119,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Tambah_Locker.Designer.vb">
+      <DependentUpon>Tambah_Locker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tambah_Locker.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Data_Sewa.resx">
+      <DependentUpon>Data_Sewa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_JenisLocker.resx">
+      <DependentUpon>Form_JenisLocker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Remove.resx">
+      <DependentUpon>Form_Remove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitor_Locker.resx">
+      <DependentUpon>Monitor_Locker.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tambah_Locker.resx">
+      <DependentUpon>Tambah_Locker.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
