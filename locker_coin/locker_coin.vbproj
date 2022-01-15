@@ -117,6 +117,25 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataKembali.Designer.vb">
+      <DependentUpon>DataKembali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataKembali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSewa.Designer.vb">
+      <DependentUpon>DataSewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataSewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penyewaan.vb" />
+    <Compile Include="Sewa.Designer.vb">
+      <DependentUpon>Sewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SignIn.Designer.vb">
       <DependentUpon>SignIn.vb</DependentUpon>
     </Compile>
@@ -145,20 +164,47 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TakeOut_Form.Designer.vb">
+      <DependentUpon>TakeOut_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TakeOut_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Jenis_Locker.Designer.vb">
+      <DependentUpon>Update_Jenis_Locker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Jenis_Locker.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="User.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DataKembali.resx">
+      <DependentUpon>DataKembali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSewa.resx">
+      <DependentUpon>DataSewa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sewa.resx">
+      <DependentUpon>Sewa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeOut_Form.resx">
+      <DependentUpon>TakeOut_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Jenis_Locker.resx">
+      <DependentUpon>Update_Jenis_Locker.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
