@@ -129,23 +129,36 @@
     <Compile Include="DataSewa.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Penyewaan.vb" />
-    <Compile Include="Sewa.Designer.vb">
-      <DependentUpon>Sewa.vb</DependentUpon>
+    <Compile Include="Delete_Locker.Designer.vb">
+      <DependentUpon>Delete_Locker.vb</DependentUpon>
     </Compile>
-    <Compile Include="Sewa.vb">
+    <Compile Include="Delete_Locker.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignIn.Designer.vb">
-      <DependentUpon>SignIn.vb</DependentUpon>
+    <Compile Include="Edit_Locker.Designer.vb">
+      <DependentUpon>Edit_Locker.vb</DependentUpon>
     </Compile>
-    <Compile Include="SignIn.vb">
+    <Compile Include="Edit_Locker.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignUp.Designer.vb">
-      <DependentUpon>SignUp.vb</DependentUpon>
+    <Compile Include="JenisLocker.Designer.vb">
+      <DependentUpon>JenisLocker.vb</DependentUpon>
     </Compile>
-    <Compile Include="SignUp.vb">
+    <Compile Include="JenisLocker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jenis_ukuran.vb" />
+    <Compile Include="Konfirm_Tambah_Jenis.Designer.vb">
+      <DependentUpon>Konfirm_Tambah_Jenis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Konfirm_Tambah_Jenis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Locker.vb" />
+    <Compile Include="Menu_Admin.Designer.vb">
+      <DependentUpon>Menu_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Admin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -164,16 +177,53 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Penyewaan.vb" />
+    <Compile Include="Remove.Designer.vb">
+      <DependentUpon>Remove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Remove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sewa.Designer.vb">
+      <DependentUpon>Sewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.vb">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.vb">
+      <DependentUpon>SignUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TakeOut_Form.Designer.vb">
       <DependentUpon>TakeOut_Form.vb</DependentUpon>
     </Compile>
     <Compile Include="TakeOut_Form.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TambahLocker.Designer.vb">
+      <DependentUpon>TambahLocker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TambahLocker.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Update_Jenis_Locker.Designer.vb">
       <DependentUpon>Update_Jenis_Locker.vb</DependentUpon>
     </Compile>
     <Compile Include="Update_Jenis_Locker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Locker.Designer.vb">
+      <DependentUpon>Update_Locker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Locker.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="User.vb" />
@@ -185,11 +235,29 @@
     <EmbeddedResource Include="DataSewa.resx">
       <DependentUpon>DataSewa.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Locker.resx">
+      <DependentUpon>Delete_Locker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Locker.resx">
+      <DependentUpon>Edit_Locker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JenisLocker.resx">
+      <DependentUpon>JenisLocker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Konfirm_Tambah_Jenis.resx">
+      <DependentUpon>Konfirm_Tambah_Jenis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Admin.resx">
+      <DependentUpon>Menu_Admin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove.resx">
+      <DependentUpon>Remove.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sewa.resx">
       <DependentUpon>Sewa.vb</DependentUpon>
@@ -203,8 +271,14 @@
     <EmbeddedResource Include="TakeOut_Form.resx">
       <DependentUpon>TakeOut_Form.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TambahLocker.resx">
+      <DependentUpon>TambahLocker.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Update_Jenis_Locker.resx">
       <DependentUpon>Update_Jenis_Locker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Locker.resx">
+      <DependentUpon>Update_Locker.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -220,7 +294,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="Resources\LOCKIE.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

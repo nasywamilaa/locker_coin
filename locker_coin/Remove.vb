@@ -17,4 +17,8 @@
     Private Sub BtnCancel_Click(sender As Object, e As EventArgs) Handles BtnCancel.Click
         Me.Close()
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles LbLockerName.Click
+
+    End Sub
 End Class
