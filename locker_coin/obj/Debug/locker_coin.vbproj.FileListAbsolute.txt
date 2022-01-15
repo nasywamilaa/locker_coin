@@ -41,3 +41,8 @@ C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locke
 C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.Form_TambahLocker.resources
 C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.Form_UpdateJenisLocker.resources
 C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.Forn_JenisLocker.resources
+C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.DataKembali.resources
+C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.DataSewa.resources
+C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.Sewa.resources
+C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.TakeOuT_Form.resources
+C:\Users\NASYWA KAMILAH . M\source\repos\locker_coin\locker_coin\obj\Debug\locker_coin.Update_Jenis_Locker.resources
